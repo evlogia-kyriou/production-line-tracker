@@ -1,0 +1,13 @@
+{
+  "confidence_threshold": 0.3,
+  "track_activation_threshold": 0.25,
+  "lost_track_buffer": 30,
+  "minimum_matching_threshold": 0.8,
+  "frame_skip": 0,
+  "class_names": {
+    "0": "dough_ball",
+    "1": "matzah_sheet"
+  },
+  "raw_class_id": 0,
+  "finished_class_id": 1
+}

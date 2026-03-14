@@ -1,0 +1,9 @@
+{
+  "tracker": "fasttracker",
+  "detector_name": "YOLOX-X",
+  "fasttracker_root": "external/FastTracker",
+  "detector_weights": "models/detectors/bytetrack_x_mot17.pth.tar",
+  "exp_file": "external/FastTracker/exps/example/mot/yolox_x_mix_det.py",
+  "confidence": 0.3,
+  "device": "cuda:0"
+}

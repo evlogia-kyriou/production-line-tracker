@@ -1,0 +1,10 @@
+{
+  "tracker": "bytetrack",
+  "detector_name": "YOLOv11x",
+  "detector_weights": "yolo11x.pt",
+  "confidence": 0.3,
+  "track_activation_threshold": 0.25,
+  "lost_track_buffer": 30,
+  "minimum_matching_threshold": 0.8,
+  "frame_rate": 30
+}

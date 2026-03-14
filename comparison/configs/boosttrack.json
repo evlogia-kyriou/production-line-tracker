@@ -1,0 +1,8 @@
+{
+  "tracker": "boosttrack",
+  "detector_name": "YOLOv11x",
+  "detector_weights": "yolo11x.pt",
+  "reid_weights": "osnet_x0_25_msmt17.pt",
+  "confidence": 0.3,
+  "device": "cuda:0"
+}

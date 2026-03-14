@@ -1,0 +1,9 @@
+{
+  "tracker": "tracktrack",
+  "detector_name": "YOLOX-X",
+  "tracktrack_root": "external/TrackTrack",
+  "detector_weights": "models/detectors/yolox_x.pth",
+  "reid_weights": "models/reid/fastreid_sbs_R50-ibn.pth",
+  "confidence": 0.3,
+  "device": "cuda:0"
+}

@@ -1,0 +1,48 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.mp4
+# Model weights
+*.pt
+*.pth
+*.pth.tar
+*.onnx
+*.engine
+
+# Models directory (weights are large)
+models/detectors/*
+models/reid/*
+!models/detectors/.gitkeep
+!models/reid/.gitkeep
+
+# External repos (cloned separately)
+external/*
+!external/.gitkeep
+
+# Videos (too large for git)
+videos/*.mp4
+videos/*.avi
+videos/*.mkv
+
+# Outputs
+outputs/**/*.csv
+outputs/**/*.mp4
+outputs/**/*.json
+!outputs/.gitkeep
+!outputs/comparisons/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.venv
+.venv/
